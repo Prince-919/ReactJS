@@ -1,5 +1,7 @@
 import {useState} from 'react';
 
+// Functional Components
+
 function StateUse(){
     const [data, setData] = useState(0);
     function updataData()
@@ -14,4 +16,6 @@ function StateUse(){
         </div>
     )
 }
+
+
 export default StateUse;
