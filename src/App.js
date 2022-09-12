@@ -1,5 +1,6 @@
 
 import './App.css';
+import StateUse from './state';
 // import JSX from "./JSX";
 // import Event from "./Event";
 function App() {
@@ -8,6 +9,7 @@ function App() {
        <h1>Hello World!</h1>
        {/* <JSX /> */}
        {/* <Event /> */}
+       <StateUse />
     </div>
   );
 }
